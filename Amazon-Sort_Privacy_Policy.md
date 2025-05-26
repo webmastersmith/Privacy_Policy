@@ -1,6 +1,6 @@
 ## Amazon-Sort: Privacy policy
 
-Welcome to the Amazon-Sort for Chrome, Firefox.
+Welcome to the Amazon-Sort for Chrome, Firefox and Brave browser extension.
 
 This is an extension by Bryon Smith.
 
@@ -15,10 +15,10 @@ The list of permissions required by the extension:
 
 <br/>
 
-|    Permission     | Why it is required                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| :---------------: | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|    `scripting`    | The scripting permission is required for our extension to programmatically inject scripts into Amazon web pages that the user is actively viewing. These injected scripts are crucial for modifying the page's content to display additional information like prices and product comparisons. This functionality activates only when the user engages with the extension, ensuring it is a user-driven action. The scripts do not modify the underlying functionality of the webpage nor collect any personal information, focusing solely on enhancing the user's shopping experience by providing valuable insights and comparisons. |
-| `host permission` | The host permissions requested by our extension are essential for its operation on Amazon web pages. These permissions enable the extension to apply content scripts specifically to Amazon's domain, allowing us to extract product information such as prices, units, and product images directly from the pages the user visits. This process is run only on the client browser and does not involve tracking user behavior or collecting personal information.                                                                                                                                                                     |
+|    Permission     | Why it is required                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| :---------------: | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|    `scripting`    | The scripting permission is required for our extension to programmatically inject Javascript into the Amazon web pages that the user is actively viewing. This allows sorting and displaying prices and product comparisons. This functionality activates only when the user engages with the extension, ensuring it is a user-driven action. The scripts do not modify the underlying functionality of the webpage nor collect any personal information, focusing solely on enhancing the user's shopping experience by providing valuable insights and comparisons. |
+| `host permission` | The host permissions requested by our extension are essential for its operation on Amazon web pages. These permissions enable the extension to apply content scripts specifically to Amazon's domain, allowing us to extract product information such as prices, images and product information directly from the Amazon product page. This process runs only in your browser and does not involve tracking user behavior or collecting personal information.                                                                                                         |
 
 <hr style="border:1px solid gray">
 
@@ -27,4 +27,4 @@ If you find any security vulnerability that has been inadvertently caused by me,
 Yours sincerely,  
 Bryon Smith
 
-bryon at smithauto dot us
+bryon at ez-tek dot us
